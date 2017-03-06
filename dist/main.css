@@ -1,0 +1,173 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+    padding: inherit;
+    margin: inherit;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.container h1 {
+    order: 1;
+    flex: 1 1 100%;
+    box-sizing: content-box;
+    padding: 10px;
+    color: white;
+    background-color:darkgoldenrod;
+    text-align: center;
+    font-size: 45px;
+}
+.App {
+    order: 2;
+    flex-basis: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+.App h2 {
+    order: 1;
+    flex: 1 1 100%;
+    text-align: center;
+}
+.Clock {
+    order: 2;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.Clock .Remain {
+    flex: 1 1 auto;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+.App .inpt{
+    order: 3;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.App .input{
+    flex: 0 1 50%;
+    display: block;
+    height: 30px;
+}
+.App .btn {
+    order: 4;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.App .button {
+    flex: 0 1 20%;
+    display: block;
+    height: 30px;
+    font-weight: bold;
+}html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+    padding: inherit;
+    margin: inherit;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.container h1 {
+    order: 1;
+    flex: 1 1 100%;
+    box-sizing: content-box;
+    padding: 10px;
+    color: white;
+    background-color:darkgoldenrod;
+    text-align: center;
+    font-size: 45px;
+}
+.App {
+    order: 2;
+    flex-basis: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+.App h2 {
+    order: 1;
+    flex: 1 1 100%;
+    text-align: center;
+}
+.Clock {
+    order: 2;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.Clock .Remain {
+    flex: 1 1 auto;
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}
+.App .inpt{
+    order: 3;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.App .input{
+    flex: 0 1 50%;
+    display: block;
+    height: 30px;
+}
+.App .btn {
+    order: 4;
+    flex: 1 1 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.App .button {
+    flex: 0 1 20%;
+    display: block;
+    height: 30px;
+    font-weight: bold;
+}
